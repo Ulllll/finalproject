@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cart</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="app">
+        <header class="header">
+       <header-el></header-el>
+    </header>
+    <nav class="navigation">
+        <mega-menu></mega-menu>
+    </nav>
+    <up-block></up-block>
+    <div class="allcart container">
+        <article class="productDetail">
+            <div class="productDetail_firstDiv">
+                <h4>Product Details </h4>
+            </div>
+            <div>
+                <h4>unite Price </h4>
+            </div>
+            <div>
+                <h4>Quantity </h4>
+            </div>
+            <div>
+                <h4>shipping </h4>
+            </div>
+            <div>
+                <h4>Subtotal </h4>
+            </div>
+            <div>
+                <h4>ACTION</h4>
+            </div>
+        </article>
+        <article class="productDetail">
+            <div class="productDetail__product productDetail_firstDiv">
+                <div><a href="product.html"><img src="img/products/product2.jpg" alt="Product"></a>
+                </div>
+                <div>
+                    <a href="product.html">
+                        <h4>Mango People T-shirt</h4>
+                    </a>
+                    <p><span>Color: </span> Red</p>
+                    <p><span>Size:</span> Xll </p>
+                </div>
+            </div>
+            <div>
+                <p>$150</p>
+            </div>
+            <div><input type="number" value="2"></div>
+            <div>
+                <p>FREE</p>
+            </div>
+            <div>
+                <p>$300</p>
+            </div>
+            <div>
+                <i class="fas fa-times-circle"></i>
+            </div>
+
+        </article>
+        <article class="productDetail">
+            <div class="productDetail__product productDetail_firstDiv">
+                <div><a href="product.html"><img src="img/products/product3.jpg" alt="Product"></a>
+                </div>
+                <div>
+                    <a href="product.html">
+                        <h4>Mango People T-shirt</h4>
+                    </a>
+                    <p><span>Color: </span> Red</p>
+                    <p><span>Size:</span> Xll </p>
+                </div>
+            </div>
+            <div>
+                <p>$150</p>
+            </div>
+            <div><input type="number" value="2"></div>
+            <div>
+                <p>FREE</p>
+            </div>
+            <div>
+                <p>$300</p>
+            </div>
+            <div>
+                <i class="fas fa-times-circle"></i>
+            </div>
+        </article>
+        <article class="productDetail">
+            <div class="productDetail__product productDetail_firstDiv">
+                <div><a href="product.html"><img src="img/products/product5.jpg" alt="Product"></a></div>
+                <div>
+                    <a href="product.html">
+                        <h4>Mango People T-shirt</h4>
+                    </a>
+                    <p><span>Color: </span> Red</p>
+                    <p><span>Size:</span> Xll </p>
+                </div>
+            </div>
+            <div>
+                <p>$150</p>
+            </div>
+            <div><input type="number" value="2"></div>
+            <div>
+                <p>FREE</p>
+            </div>
+            <div>
+                <p>$300</p>
+            </div>
+            <div>
+                <i class="fas fa-times-circle"></i>
+            </div>
+        </article>
+    </div>
+    <div class="cartButton container">
+        <div class="link-cart">
+            <a href="#">cLEAR SHOPPING CART</a>
+
+
+        </div>
+        <div class="link-cart">
+            <a href="product.html">cONTINUE sHOPPING</a>
+
+
+        </div>
+    </div>
+    <div class="shipping container">
+        <div class="shipping__adress">
+            <h3>Shipping Adress</h3>
+            <input type="text" placeholder="Bangladesh"><br>
+            <input type="text" placeholder="State"><br>
+            <input type="text" placeholder="Postcode / Zip"><br>
+            <div class="link-cart">
+                <a href="#">get a&nbsp;quote</a>
+
+
+            </div>
+        </div>
+        <div class="shipping__code">
+            <h3>Shipping Adress</h3>
+            <p>Enter your coupon code if&nbsp;you have one</p>
+            <input type="text" placeholder="State">
+
+            <div class="link-cart">
+                <a href="#">Apply coupon</a>
+
+
+            </div>
+        </div>
+        <div class="shipping__total">
+            <div>
+                <h4>Sub total<span id="subtotal">$900</span></h4>
+                <h3>GRAND TOTAL<span id="grandtotal">$900</span></h3>
+            </div>
+            <div class="link-cart">
+                <a href="checkout.html">proceed to&nbsp;checkout</a>
+
+
+            </div>
+        </div>
+    </div>
+    <feedback></feedback>
+    
+        <footer-el></footer-el>
+    </div>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="products.js"></script>
+    <script src="footer.js"></script>
+    <script src="feedback.js"></script>
+    <script src = "upblock.js"></script>
+    <script src="megamenu.js"></script>
+    <script src="header.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

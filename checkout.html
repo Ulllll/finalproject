@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="app">
+        <header class="header">
+       <header-el></header-el>
+    </header>
+    <nav class="navigation">
+        <mega-menu></mega-menu>
+    </nav>
+    <up-block></up-block>
+    <div class="checkout container">
+        <div class="checkout__div">
+
+            <details open>
+                <summary>01. Shipping Adress</summary>
+                <div class="checkout__div__block">
+                    <div class="checkout__div__now checkout__div__now_rightmargin">
+                        <h3>Check as&nbsp;a&nbsp;guest or&nbsp;register</h3>
+                        <a href="#">
+                            <p>Register with&nbsp;us for future convenience</p>
+                        </a>
+                        <label class="checkout__div__now_first"><input class="checkout__div__now_first" type="checkbox">checkout as&nbsp;guest</label> <br>
+                        <label><input  type="checkbox">register</label>
+                        <h3>register and save time!</h3>
+                        <a href="#">
+                            <p>Register with&nbsp;us for future convenience</p>
+                        </a>
+                        <div class="checkout__div__now_first">
+                            <a href="#">
+                                <p> &gt;&gt; Fast and easy checkout</p>
+                            </a>
+                            <a href="#">
+                                <p> &gt;&gt;Easy access to&nbsp;your order history and status</p>
+                            </a>
+
+                        </div>
+                        <div class="link-cart">
+                            <a href="#">Continue</a>
+
+
+                        </div>
+                    </div>
+                    <div class="checkout__div__now">
+                        <h3>Already registed?</h3>
+                        <a href="#">
+                            <p>Please log in&nbsp;below</p>
+                        </a>
+
+                        <p class="checkout__div__now_first checkout__div__now__p">EMAIL&nbsp;ADDRESS <i class="fas fa-star-of-life"></i></p>
+                        <input type="email">
+                        <p class="checkout__div__now_first checkout__div__now__p">PASSWORD <i class="fas fa-star-of-life"></i></p>
+                        <input type="password"> <br>
+
+                        <i class="fas fa-star-of-life"> Required Fileds</i>
+                        <div class="checkout__div__now__a">
+                            <div class="link-cart">
+                                <a href="#">Log in</a>
+                                <a href="#" class="checkout__div__now__a_forget">Forgot Password ?</a>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </details>
+        </div>
+        <div class="checkout__div">
+
+            <details open>
+                <summary>02. BILLING INFORMATION</summary>
+
+            </details>
+        </div>
+        <div class="checkout__div">
+
+            <details open>
+                <summary>03. SHIPPING INFORMATION</summary>
+
+            </details>
+        </div>
+        <div class="checkout__div">
+
+            <details open>
+                <summary>04. SHIPPING METHOD</summary>
+
+            </details>
+        </div>
+        <div class="checkout__div">
+
+            <details open>
+                <summary>05. PAYMENT METHOD</summary>
+
+            </details>
+        </div>
+        <div class="checkout__div">
+
+            <details open>
+                <summary>06. ORDER REVIEW</summary>
+
+            </details>
+        </div>
+    </div>
+    <feedback></feedback>
+    
+        <footer-el></footer-el>
+    </div>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="products.js"></script>
+    <script src="footer.js"></script>
+    <script src="feedback.js"></script>
+    <script src = "upblock.js"></script>
+    <script src="megamenu.js"></script>
+    <script src="header.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

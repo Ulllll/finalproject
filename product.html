@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Product</title>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div id="app">
+       <header class="header">
+       <header-el></header-el>
+    </header>
+    <nav class="navigation">
+        <mega-menu></mega-menu>
+    </nav>
+    <up-block></up-block>
+    <div class="imgofproduct">
+        <img src="img/womenproduct/wproduct1.jpg" alt="Image of product">
+    </div>
+    <section class="text-of-product container">
+        <div class="div-for-text-product">
+            <h6>WOMEN COLLECTION</h6>
+            <h3>Moschino Cheap And Chic</h3>
+            <p>Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals. </p>
+            <div class="info-of-product">
+                <div class="info-now">
+                    <p>MATERIAL: <span>COTTON</span></p>
+                </div>
+                <div class="info-now">
+                    <p>DESIGNER: <span>BINBURHAN</span></p>
+                </div>
+            </div>
+            <p id="price-of-product">$561</p>
+
+        </div>
+        <div class="div-for-setting-product">
+            <div class="setting-of-product">
+            <div class="setting-of-product_div">
+                <h5>CHOOSE COLOR</h5>
+                <select name="color" >
+                     <option value="Red">Red</option>
+                     <option value="Black">Black</option>
+                     <option value="Blue">Blue</option>
+                </select>
+                
+            </div>
+            <div class="setting-of-product_div">
+                <h5>CHOOSE SIZE</h5>
+                <select name="size" >
+                     <option value="XXL">XXL</option>
+                     <option value="L">L</option>
+                     <option value="M">M</option>
+                </select>
+            </div>
+            <div class="setting-of-product_div">
+                <h5>QUANTITY</h5>
+                <input type="number" value="2">
+            </div>
+            </div>
+
+            <a href="#" class="add-to-cart-product">Add to&nbsp;Cart</a>
+
+        </div>
+
+
+    </section>
+    <section class="like-also container">
+        <h3>you may like also</h3>
+<products></products>
+           
+
+    </section>
+    <feedback></feedback>
+    
+        <footer-el></footer-el>
+    
+   </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="products.js"></script>
+    <script src="footer.js"></script>
+    <script src="feedback.js"></script>
+    <script src = "upblock.js"></script>
+    <script src="megamenu.js"></script>
+    <script src="header.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+
+</html>
